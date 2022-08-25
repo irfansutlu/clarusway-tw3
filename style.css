@@ -25,6 +25,14 @@ header{
     font-family: 'Roboto', sans-serif;
     width: 35%;
 }
+p:hover{
+    animation: color-wave 3s ease;
+}
+@keyframes color-wave {
+            0%{color:rgb(0, 0, 0);}
+            50%{color:aqua;}
+            100%{color:rgb(0, 0, 0);}
+}
 .container{
    display: flex;
    flex-direction: row;
@@ -47,6 +55,11 @@ img{
     box-shadow: 5px black;
     margin-bottom: 1rem;
     box-shadow: 0px 0px 39px 14px rgba(0,0,0,0.49);
+    transition:all 0.7s ease;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .container h4{
     position: absolute;
