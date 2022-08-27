@@ -5,7 +5,9 @@
 
 //---------------------------------
 
-// const reString=(str) => str.split(' ').reverse().join(' ');
+// const reString=(str) =>{ 
+//    return fString.split(' ').length > 1 ? str.split(' ').reverse().join(' ') : 'HATA';
+// }
 
 // let fString= prompt('Terse çevrilmesini istediğiniz metni girin...')
 // alert(reString(fString));
